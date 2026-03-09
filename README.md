@@ -71,6 +71,10 @@ Esse comando atualiza as referências locais do repositório remoto, ajudando a 
 git fetch --all
 ```
 
+---
+
+# FORK | Puxe o projeto para o seu repositório
+
 ### Fazer fork para o próprio repositório
 Esse processo cria uma cópia do repositório original na sua conta do GitHub. Primeiro, faça o fork pela interface do GitHub. Depois, clone o fork para a sua máquina usando a URL do seu próprio repositório:
 
@@ -107,16 +111,6 @@ git fetch upstream
 git checkout main
 git merge upstream/main
 git push origin main
-```
-
-### Atualizar a branch com respostas no próprio fork a partir do original
-Esses comandos trocam para a branch `resolucao`, buscam as alterações do repositório original para essa branch, aplicam as mudanças localmente e enviam a atualização para o seu fork:
-
-```bash
-git fetch upstream
-git checkout resolucao
-git merge upstream/resolucao
-git push origin resolucao
 ```
 
 ---
